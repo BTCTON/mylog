@@ -47,4 +47,5 @@ UPDATE label SET state='created', removed=NULL ,remove_time=NULL  WHERE id = '33
 ### 是否可以删除不需要的记录
 
 例如我们想删除label，有些label确实不存在了，还显示created状态，
-
+## 其他
+https://juejin.im/post/5aa4b74af265da23a1418419  一个非典应用
