@@ -1,8 +1,10 @@
-#docker安装
+# docker安装
 
 ## 原始安装docker
 
 参考https://blog.csdn.net/jeikerxiao/article/details/54632091
+
+ubunt 18.04 安装 https://linuxconfig.org/how-to-install-docker-on-ubuntu-18-04-bionic-beaver
 
 curl https://releases.rancher.com/install-docker/18.03.sh | sh
 
@@ -11,6 +13,7 @@ https://www.jianshu.com/p/b3f70bcffe75
 	curl https://releases.rancher.com/install-docker/17.12.sh | sh  #最新安装2018-0202
     curl https://releases.rancher.com/install-docker/1.12.sh | sh  #http://52.221.74.151/
 	curl https://52.221.74.151/install-docker/1.12.sh 
+	sudo usermod -a -G docker $USER.
 	sudo apt-mark hold docker-engine # prevent upgrade  sudo apt-mark hold docker-ce
 	dpkg -l | grep ^h   #查看哪些软件被Hold
 	sudo apt-mark unhold docker-engine
