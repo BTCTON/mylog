@@ -39,7 +39,22 @@ https://openvpn.net/index.php/open-source/documentation/manuals/65-openvpn-20x-m
 
 https://openvpn.net/index.php/component/content/article/65-open-source/general/89-2xhowto.html
 
+http://dnaeon.github.io/static-ip-addresses-in-openvpn/
 
+[阿里云openvpn](https://yq.aliyun.com/ziliao/65785)
+
+[最专业的了](https://blog.csdn.net/cai742925624/article/details/45483571
+）
+sudo nano /etc/openvpn/server.conf   
+
+sudo nano /etc/openvpn/ipp.txt
+sudo chown -R nobody:nogroup /etc/openvpn/ccd
+
+cd ~/openvpn-ca
+
+source vars
+
+./build-key conohajp
 
 
 
