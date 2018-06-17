@@ -14,7 +14,9 @@
 
 ### [安装vpn](https://www.wilean.com/archives/382)
 
-[如何在Ubuntu 16.04上设置一套OpenVPN服务器](https://www.howtoing.com/how-to-set-up-an-openvpn-server-on-ubuntu-16-04)
+[如何在Ubuntu 16.04上设置一套OpenVPN服务器](https://blog.csdn.net/zstack_org/article/details/69228386)
+
+
 
 
 
