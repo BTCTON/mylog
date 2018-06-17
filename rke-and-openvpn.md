@@ -33,6 +33,11 @@ dhcp-option DNS 223.6.6.6
 
 ···
 
+### 固定ip的问题
+
+https://openvpn.net/index.php/open-source/documentation/manuals/65-openvpn-20x-manpage.html
+
+https://openvpn.net/index.php/component/content/article/65-open-source/general/89-2xhowto.html
 
 
 
