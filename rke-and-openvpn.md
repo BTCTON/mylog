@@ -43,7 +43,12 @@ http://dnaeon.github.io/static-ip-addresses-in-openvpn/
 
 [阿里云openvpn](https://yq.aliyun.com/ziliao/65785)
 
-[最专业](https://blog.csdn.net/cai742925624/article/details/45483571)
+[深入](https://blog.csdn.net/cai742925624/article/details/45483571)
+
+
+[最专业](https://blog.csdn.net/donghaixiaolongwang/article/details/64929732)
+
+
 
 sudo nano /etc/openvpn/server.conf   
 
