@@ -1,0 +1,16 @@
+# 学习vpn
+
+[固定ip](https://github.com/kylemanna/docker-openvpn/blob/master/docs/static-ips.md)
+
+[docker安装vpn](https://www.digitalocean.com/community/tutorials/how-to-run-openvpn-in-a-docker-container-on-ubuntu-14-04?utm_source=githubreadme)
+
+----------工具
+
+1、管理界面
+```
+docker run -v $OVPN_DATA:/etc/openvpn -it --rm kylemanna/openvpn bash -l
+```
+
+2、更新
+
+docker run  -v $OVPN_DATA:/etc/openvpn --rm kylemanna/openvpn ovpn_genconfig
